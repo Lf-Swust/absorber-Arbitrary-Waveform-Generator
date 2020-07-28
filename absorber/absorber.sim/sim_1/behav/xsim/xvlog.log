@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/absorber/absorber.srcs/sources_1/new/absorber.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module absorber
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/absorber/absorber.srcs/sim_1/new/test_fir.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module test_fir
