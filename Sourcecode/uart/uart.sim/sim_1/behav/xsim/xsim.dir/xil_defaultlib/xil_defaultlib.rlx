@@ -1,0 +1,20 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sim_1/new/test_uart.v,1596280121,verilog,,,,test_top,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division.v,1596276647,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division_0.v,,Clk_Division,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division_0.v,1596276647,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,Clk_Division_0,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Sin/sim/Rom_Sin.v,1596277192,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division.v,,Rom_Sin,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Square/sim/Rom_Square.v,1596277302,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Sin/sim/Rom_Sin.v,,Rom_Square,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Triangle/sim/Rom_Triangle.v,1596277519,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Square/sim/Rom_Square.v,,Rom_Triangle,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1596275203,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/DDS_Addr_Generator.v,,clk_wiz_0,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1596275203,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/DDS_Addr_Generator.v,1596273880,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/Driver_DAC.v,,DDS_Addr_Generator,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/Driver_DAC.v,1596274001,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/detect_module.v,,Driver_DAC,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/detect_module.v,1596023369,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/display.v,,detect_module,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/display.v,1596286899,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_bps_module.v,,display,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_bps_module.v,1596023401,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_control_module.v,,rx_bps_module,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_control_module.v,1596023425,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v,,rx_control_module,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v,1596280510,verilog,,C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sim_1/new/test_uart.v,,uart,,,../../../../uart.srcs/sources_1/ip/clk_wiz_0,,,,,

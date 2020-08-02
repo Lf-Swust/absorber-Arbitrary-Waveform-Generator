@@ -1,0 +1,337 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug  1 20:16:08 2020
+# Process ID: 13892
+# Current directory: C:/Users/SWUST-LF/Desktop/c/uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17392 C:\Users\SWUST-LF\Desktop\c\uart\uart.xpr
+# Log file: C:/Users/SWUST-LF/Desktop/c/uart/vivado.log
+# Journal file: C:/Users/SWUST-LF/Desktop/c/uart\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SWUST-LF/Desktop/c/uart/uart.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/SWUST-LF/Desktop/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2018.3/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'digilentinc.com:ip:rgb2dvi:1.2'. The one found in IP location 'c:/Users/SWUST-LF/Desktop/IP/FPGA_IP/Mini-HDMI-IP/IP/RGB2DVI_IP' will take precedence over the same IP in location c:/Users/SWUST-LF/Desktop/IP/RGB2DVI_IP
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:01:15 . Memory (MB): peak = 688.844 ; gain = 114.590
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 2
+[Sat Aug  1 20:22:48 2020] Launched synth_1...
+Run output will be captured here: C:/Users/SWUST-LF/Desktop/c/uart/uart.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 690.984 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Sin.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Sin_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Square.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Square_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Triangle.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Triangle_Wave_Rom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Triangle/sim/Rom_Triangle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_Triangle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Square/sim/Rom_Square.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_Square
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Sin/sim/Rom_Sin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_Sin
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clk_Division
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clk_Division_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/DDS_Addr_Generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DDS_Addr_Generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/Driver_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/detect_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module detect_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_bps_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_bps_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_control_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_control_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sim_1/new/test_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_top
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 705.250 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '13' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 71fc2f9442754eae88b91e1647676185 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_top_behav xil_defaultlib.test_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'DAC_En' [C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'Phase' [C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v:67]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=33,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.detect_module
+Compiling module xil_defaultlib.rx_bps_module
+Compiling module xil_defaultlib.rx_control_module
+Compiling module xil_defaultlib.Clk_Division
+Compiling module xil_defaultlib.Clk_Division_0
+Compiling module xil_defaultlib.DDS_Addr_Generator
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Rom_Sin
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Rom_Square
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Rom_Triangle
+Compiling module xil_defaultlib.Driver_DAC
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.uart
+Compiling module xil_defaultlib.test_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_top_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 706.379 ; gain = 1.129
+INFO: [USF-XSim-69] 'elaborate' step finished in '18' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_top_behav -key {Behavioral:sim_1:Functional:test_top} -tclbatch {test_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source test_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Sin_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Square_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Triangle_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 741.930 ; gain = 24.922
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:25 ; elapsed = 00:01:35 . Memory (MB): peak = 741.930 ; gain = 37.613
+run all
+run: Time (s): cpu = 00:00:41 ; elapsed = 00:02:52 . Memory (MB): peak = 790.500 ; gain = 4.574
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Sin.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Sin_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Square.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Square_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Triangle.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Triangle_Wave_Rom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Triangle/sim/Rom_Triangle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_Triangle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Square/sim/Rom_Square.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_Square
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Rom_Sin/sim/Rom_Sin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rom_Sin
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clk_Division
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clk_Division_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/DDS_Addr_Generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DDS_Addr_Generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/Driver_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/detect_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module detect_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_bps_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_bps_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/rx_control_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_control_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sim_1/new/test_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_top
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 803.199 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 71fc2f9442754eae88b91e1647676185 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_top_behav xil_defaultlib.test_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'DAC_En' [C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'Phase' [C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v:67]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=33,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.detect_module
+Compiling module xil_defaultlib.rx_bps_module
+Compiling module xil_defaultlib.rx_control_module
+Compiling module xil_defaultlib.Clk_Division
+Compiling module xil_defaultlib.Clk_Division_0
+Compiling module xil_defaultlib.DDS_Addr_Generator
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Rom_Sin
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Rom_Square
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.Rom_Triangle
+Compiling module xil_defaultlib.Driver_DAC
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.uart
+Compiling module xil_defaultlib.test_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 803.199 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_top_behav -key {Behavioral:sim_1:Functional:test_top} -tclbatch {test_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source test_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Sin_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Square_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Triangle_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 835.969 ; gain = 32.770
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:37 . Memory (MB): peak = 835.969 ; gain = 32.770
+run all
+WARNING: [Simulator 45-29] Cannot open source file /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v: file does not exist.
+run: Time (s): cpu = 00:00:21 ; elapsed = 00:01:19 . Memory (MB): peak = 873.703 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Sin.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Sin_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Square.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Square_Wave_Rom.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Rom_Triangle.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim/Triangle_Wave_Rom.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_top_vlog.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 873.703 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 873.703 ; gain = 0.000
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/SWUST-LF/Desktop/c/uart/uart.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 71fc2f9442754eae88b91e1647676185 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_top_behav xil_defaultlib.test_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'DAC_En' [C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'Phase' [C:/Users/SWUST-LF/Desktop/c/uart/uart.srcs/sources_1/new/uart.v:67]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 873.703 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 873.703 ; gain = 0.000
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Sin_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Square_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module test_top.u0.u5.Triangle_Rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 873.703 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:46 ; elapsed = 00:04:27 . Memory (MB): peak = 873.703 ; gain = 0.000
